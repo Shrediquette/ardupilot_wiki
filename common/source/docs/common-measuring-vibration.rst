@@ -39,7 +39,7 @@ Check the recorded Vibe levels are mostly below 30m/s/s
    the primary accelerometer's output in m/s/s.  The image below, taken
    from a 3DR IRIS, shows normal levels which are below 15m/s/s but
    occasionally peak to 30m/s/s.  Maximum acceptable values appear to be
-   below 30m/s/s (see second picture below).
+   below 30m/s/s (see second picture below). However, keep in mind that flying aggressive manoeuvers will also temporarily increase VibeX, Y and Z.
 -  Graph the Clip0, Clip1 and Clip2 values which increase each time one
    of the accelerometers reaches its maximum limit (16G).  Ideally
    these should be zero for the whole flight but low numbers (<100) are
